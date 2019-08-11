@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView
+		android:text="緯度が表示されるよ"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="48.0dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/latitude" />
+	<TextView
+		android:text="経度が表示されるよ"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="48.0dp"
+		android:layout_below="@id/latitude"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/longitude" />
+	<TextView
+		android:text="高度が表示されるよ"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="48.0dp"
+		android:layout_below="@id/longitude"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/altitude" />
+
+
+</RelativeLayout>

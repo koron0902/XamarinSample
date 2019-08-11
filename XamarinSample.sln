@@ -1,0 +1,30 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gps", "gps\gps.csproj", "{1C4F6BC8-6A32-4751-AC00-28148A9C8314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabLayoutSample", "TabLayout\TabLayoutSample.csproj", "{B6369A9E-602D-417C-ACE9-01E010B58E86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4F6BC8-6A32-4751-AC00-28148A9C8314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F6BC8-6A32-4751-AC00-28148A9C8314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F6BC8-6A32-4751-AC00-28148A9C8314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F6BC8-6A32-4751-AC00-28148A9C8314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		BaseDirectory = ..
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = MSBuild
+	EndGlobalSection
+EndGlobal
