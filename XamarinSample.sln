@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gps", "gps\gps.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabLayoutSample", "TabLayout\TabLayoutSample.csproj", "{B6369A9E-602D-417C-ACE9-01E010B58E86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadcastReceiver", "BroadcastReceiver\BroadcastReceiver.csproj", "{953AD362-C326-4461-9654-8BF9DFD01518}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6369A9E-602D-417C-ACE9-01E010B58E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953AD362-C326-4461-9654-8BF9DFD01518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953AD362-C326-4461-9654-8BF9DFD01518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953AD362-C326-4461-9654-8BF9DFD01518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953AD362-C326-4461-9654-8BF9DFD01518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		BaseDirectory = ..
